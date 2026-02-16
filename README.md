@@ -1,6 +1,17 @@
-# Clinical ML Pipeline (Research Prototype): Heart Disease Classification
+# Reproducible Clinical Machine Learning Pipeline: Heart Disease Prediction
 
-Reproducible ML pipeline demonstrating dataset ingestion, preprocessing, model training (Logistic Regression + Random Forest), and evaluation (accuracy + ROC/AUC) on a public heart disease dataset.
+This repository presents a compact research-style machine learning pipeline for cardiovascular disease prediction using a publicly available clinical dataset.  
+The project demonstrates reproducible dataset ingestion, preprocessing, model training, cross-validated evaluation, and ROC-based performance analysis using Logistic Regression and Random Forest classifiers.
+
+The repository is structured to resemble a lightweight experimental research prototype suitable for rapid benchmarking of biomedical datasets.
+
+## Methods
+- Dataset: Public clinical heart disease dataset (OpenML)
+- Models: Logistic Regression (linear baseline) and Random Forest (nonlinear ensemble)
+- Evaluation: 80/20 train–test split with 5-fold cross-validation
+- Metrics: Accuracy and ROC-AUC
+- Visualization: ROC curve comparison and feature importance plots
+
 
 ## Run locally
 ```bash
