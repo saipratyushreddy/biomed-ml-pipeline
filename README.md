@@ -12,6 +12,13 @@ The repository is structured to resemble a lightweight experimental research pro
 - Metrics: Accuracy and ROC-AUC
 - Visualization: ROC curve comparison and feature importance plots
 
+## Results
+Both models demonstrated stable cross-validated performance (~0.83 mean accuracy).  
+The Random Forest achieved slightly higher test performance (Accuracy ≈ 0.82, AUC ≈ 0.91) compared to Logistic Regression (Accuracy ≈ 0.80, AUC ≈ 0.87), suggesting moderate nonlinear relationships within the clinical predictors.
+
+### ROC Curve Comparison
+![ROC Curves](outputs/figures/roc_curves.png)
+
 
 ## Run locally
 ```bash
